@@ -1,0 +1,143 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "stake2",
+            "rotation" : [
+                0.4936915636062622,
+                0.5662592053413391,
+                0.1628483682870865,
+                0.6396089196205139
+            ],
+            "scale" : [
+                49.82376480102539,
+                49.82376480102539,
+                49.82376480102539
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "name" : "material_0",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "stake2",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "stake2_tex",
+            "uri" : "stake2_tex.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 997347,
+            "max" : [
+                0.48766854405403137,
+                0.45409753918647766,
+                0.38803815841674805
+            ],
+            "min" : [
+                -0.4167344570159912,
+                -0.26338744163513184,
+                -0.37149083614349365
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 997347,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 997347,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 1130868,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 11968164,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11968164,
+            "byteOffset" : 11968164
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7978776,
+            "byteOffset" : 23936328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 4523472,
+            "byteOffset" : 31915104
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 36438576,
+            "uri" : "stake2.bin"
+        }
+    ]
+}
